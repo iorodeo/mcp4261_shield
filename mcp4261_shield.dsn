@@ -1,0 +1,247 @@
+(pcb /home/wbd/work/iorodeo/products/mcp4261_shield/mcp4261_shield.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(2011-aug-04)-testing")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 940 -874.9 3775.1 -3060)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 15)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "DIP-14__300"
+      (place U1 2200 -2232 front 180 (PN "MCP4261-PDIP"))
+      (place U2 2200 -1518 front 180 (PN "MCP4261-PDIP"))
+    )
+    (component CONN_13
+      (place P1 3610 -1950 front 90 (PN CONN_13))
+    )
+    (component C2
+      (place C1 2400 -2575 front 0 (PN 0.1uF))
+      (place C2 2400 -1875 front 0 (PN 0.1uF))
+    )
+    (component ARDUINO_SHIELD
+      (place SHIELD1 1000 -3000 front 0 (PN ARDUINO_SHIELD))
+    )
+  )
+  (library
+    (image "DIP-14__300"
+      (outline (path signal 15  -400 100  400 100))
+      (outline (path signal 15  400 -100  -400 -100))
+      (outline (path signal 15  -400 -100  -400 100))
+      (outline (path signal 15  -400 50  -350 50))
+      (outline (path signal 15  -350 50  -350 -50))
+      (outline (path signal 15  -350 -50  -400 -50))
+      (outline (path signal 15  400 100  400 -100))
+      (pin Rect[A]Pad_55x55_mil 1 -300 -150)
+      (pin Round[A]Pad_55_mil 2 -200 -150)
+      (pin Round[A]Pad_55_mil 3 -100 -150)
+      (pin Round[A]Pad_55_mil 4 0 -150)
+      (pin Round[A]Pad_55_mil 5 100 -150)
+      (pin Round[A]Pad_55_mil 6 200 -150)
+      (pin Round[A]Pad_55_mil 7 300 -150)
+      (pin Round[A]Pad_55_mil 8 300 150)
+      (pin Round[A]Pad_55_mil 9 200 150)
+      (pin Round[A]Pad_55_mil 10 100 150)
+      (pin Round[A]Pad_55_mil 11 0 150)
+      (pin Round[A]Pad_55_mil 12 -100 150)
+      (pin Round[A]Pad_55_mil 13 -200 150)
+      (pin Round[A]Pad_55_mil 14 -300 150)
+    )
+    (image CONN_13
+      (outline (path signal 15  917.4 141.7  -917.3 141.7))
+      (outline (path signal 15  917.3 -137.7  -917.3 -137.7))
+      (outline (path signal 15  -917.4 141.8  -917.4 -133.8))
+      (outline (path signal 15  917.5 141.7  917.5 -137.8))
+      (pin Round[A]Pad_60_mil (rotate 180) 1 -826.9 -0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 2 -689.2 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 3 -551.1 0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 4 -413.4 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 5 -275.6 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 6 -138 0)
+      (pin Round[A]Pad_60_mil (rotate 180) 7 -0.1 0)
+      (pin Round[A]Pad_60_mil 8 137.7 0.1)
+      (pin Round[A]Pad_60_mil 9 275.5 0.1)
+      (pin Round[A]Pad_60_mil 10 413.5 0.1)
+      (pin Round[A]Pad_60_mil 12 688.9 0.2)
+      (pin Round[A]Pad_60_mil 11 551.1 0.1)
+      (pin Round[A]Pad_60_mil (rotate 180) 13 826.7 0.1)
+    )
+    (image C2
+      (outline (path signal 12  -140 40  140 40))
+      (outline (path signal 12  140 40  140 -40))
+      (outline (path signal 12  140 -40  -140 -40))
+      (outline (path signal 12  -140 -40  -140 40))
+      (outline (path signal 12  -140 20  -120 40))
+      (pin Round[A]Pad_55_mil 1 -100 0)
+      (pin Round[A]Pad_55_mil 2 100 0)
+    )
+    (image ARDUINO_SHIELD
+      (outline (path signal 15  2750 0  2750 2100))
+      (outline (path signal 15  2750 2100  0 2100))
+      (outline (path signal 15  0 0  2750 0))
+      (outline (path signal 15  0 0  0 2100))
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD5 2150 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD4 2050 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD3 1950 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD0 1650 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD1 1750 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD2 1850 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) V_IN 1450 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND2 1350 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND1 1250 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 3V3 1050 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) RST 950 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 0 2150 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 1 2050 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 2 1950 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 3 1850 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 4 1750 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 5 1650 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 6 1550 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 7 1450 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 8 1290 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 9 1190 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 10 1090 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 11 990 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 12 890 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 13 790 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND3 690 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AREF 590 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 5V 1150 100)
+      (pin Round[A]Pad_155_mil (rotate 90) @1 2250 300)
+      (pin Round[A]Pad_155_mil (rotate 90) @2 2250 1400)
+      (pin Round[A]Pad_155_mil (rotate 90) @3 250 2000)
+      (pin Round[A]Pad_155_mil (rotate 90) @4 200 100)
+    )
+    (padstack Round[A]Pad_155_mil
+      (shape (circle Front 155))
+      (shape (circle Back 155))
+      (attach off)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Front 55))
+      (shape (circle Back 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_100x60_mil
+      (shape (path Front 60  -20 0  20 0))
+      (shape (path Back 60  -20 0  20 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_55x55_mil
+      (shape (rect Front -27.5 -27.5 27.5 27.5))
+      (shape (rect Back -27.5 -27.5 27.5 27.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /5V
+      (pins U1-11 U1-12 U1-14 U2-11 U2-12 U2-14 C1-1 C2-1 SHIELD1-5V)
+    )
+    (net /CS0
+      (pins U1-1 SHIELD1-5)
+    )
+    (net /CS1
+      (pins U2-1 SHIELD1-6)
+    )
+    (net /MISO
+      (pins U1-13 U2-13 SHIELD1-12)
+    )
+    (net /MOSI
+      (pins U1-3 U2-3 SHIELD1-11)
+    )
+    (net /P0A
+      (pins U1-8 P1-1)
+    )
+    (net /P0B
+      (pins U1-10 P1-3)
+    )
+    (net /P0W
+      (pins U1-9 P1-2)
+    )
+    (net /P1A
+      (pins U1-7 P1-4)
+    )
+    (net /P1B
+      (pins U1-5 P1-6)
+    )
+    (net /P1W
+      (pins U1-6 P1-5)
+    )
+    (net /P2A
+      (pins U2-8 P1-7)
+    )
+    (net /P2B
+      (pins U2-10 P1-9)
+    )
+    (net /P2W
+      (pins U2-9 P1-8)
+    )
+    (net /P3A
+      (pins U2-7 P1-10)
+    )
+    (net /P3B
+      (pins U2-5 P1-12)
+    )
+    (net /P3W
+      (pins U2-6 P1-11)
+    )
+    (net /SCK
+      (pins U1-2 U2-2 SHIELD1-13)
+    )
+    (net GND
+      (pins U1-4 U2-4 P1-13 C1-2 C2-2 SHIELD1-GND1)
+    )
+    (class kicad_default "" /5V /CS0 /CS1 /MISO /MOSI /P0A /P0B /P0W /P1A
+      /P1B /P1W /P2A /P2B /P2W /P3A /P3B /P3W /SCK GND
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 15)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

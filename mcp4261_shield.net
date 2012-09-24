@@ -1,0 +1,102 @@
+# EESchema Netlist Version 1.1 created  Mon 24 Sep 2012 01:40:41 PM PDT
+(
+ ( /5060B95F C2 C1 0.1uF
+  ( 1 /5V )
+  ( 2 GND )
+ )
+ ( /5060BAD0 C2 C2 0.1uF
+  ( 1 /5V )
+  ( 2 GND )
+ )
+ ( /5060BB43 CONN_13 P1 CONN_13
+  ( 1 /P0A )
+  ( 2 /P0W )
+  ( 3 /P0B )
+  ( 4 /P1A )
+  ( 5 /P1W )
+  ( 6 /P1B )
+  ( 7 /P2A )
+  ( 8 /P2W )
+  ( 9 /P2B )
+  ( 10 /P3A )
+  ( 11 /P3W )
+  ( 12 /P3B )
+  ( 13 GND )
+ )
+ ( /5060B4DB ARDUINO_SHIELD SHIELD1 ARDUINO_SHIELD
+  ( 0 ? )
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 3V3 ? )
+  ( 4 ? )
+  ( 5 /CS0 )
+  ( 5V /5V )
+  ( 6 /CS1 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /MOSI )
+  ( 12 /MISO )
+  ( 13 /SCK )
+  ( AD0 ? )
+  ( AD1 ? )
+  ( AD2 ? )
+  ( AD3 ? )
+  ( AD4 ? )
+  ( AD5 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 ? )
+  ( GND3 ? )
+  ( RST ? )
+  ( V_IN ? )
+ )
+ ( /5060B4EA DIP-14__300 U1 MCP4261-PDIP
+  ( 1 /CS0 )
+  ( 2 /SCK )
+  ( 3 /MOSI )
+  ( 4 GND )
+  ( 5 /P1B )
+  ( 6 /P1W )
+  ( 7 /P1A )
+  ( 8 /P0A )
+  ( 9 /P0W )
+  ( 10 /P0B )
+  ( 11 /5V )
+  ( 12 /5V )
+  ( 13 /MISO )
+  ( 14 /5V )
+ )
+ ( /5060BAD2 DIP-14__300 U2 MCP4261-PDIP
+  ( 1 /CS1 )
+  ( 2 /SCK )
+  ( 3 /MOSI )
+  ( 4 GND )
+  ( 5 /P3B )
+  ( 6 /P3W )
+  ( 7 /P3A )
+  ( 8 /P2A )
+  ( 9 /P2W )
+  ( 10 /P2B )
+  ( 11 /5V )
+  ( 12 /5V )
+  ( 13 /MISO )
+  ( 14 /5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
