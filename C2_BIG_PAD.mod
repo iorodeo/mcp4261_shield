@@ -1,0 +1,43 @@
+PCBNEW-LibModule-V1  Fri 23 Aug 2013 06:07:26 PM PDT
+# encoding utf-8
+Units mm
+$INDEX
+C2_Big_Pad
+$EndINDEX
+$MODULE C2_Big_Pad
+Po 0 0 0 15 5218064A 00000000 ~~
+Li C2_Big_Pad
+Cd Condensateur = 2 pas
+Kw C
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1.016 1.016 0 0.2032 N V 21 N "C2"
+T1 0 0 1.016 1.016 0 0.2032 N I 21 N "C***"
+DS -3.556 -1.016 3.556 -1.016 0.3048 21
+DS 3.556 -1.016 3.556 1.016 0.3048 21
+DS 3.556 1.016 -3.556 1.016 0.3048 21
+DS -3.556 1.016 -3.556 -1.016 0.3048 21
+DS -3.556 -0.508 -3.048 -1.016 0.3048 21
+$PAD
+Sh "1" C 1.651 1.651 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.651 1.651 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "discret/capa_2pas_5x5mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE C2_Big_Pad
+$EndLIBRARY

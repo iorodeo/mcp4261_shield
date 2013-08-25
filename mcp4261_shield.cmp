@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = Mon 24 Sep 2012 01:40:41 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 24 Aug 2013 07:09:23 PM PDT
 
 BeginCmp
 TimeStamp = /5060B95F;
 Reference = C1;
 ValeurCmp = 0.1uF;
-IdModule  = C2;
+IdModule  = C2_Big_Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5060BAD0;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = C2;
+IdModule  = C2_Big_Pad;
 EndCmp
 
 BeginCmp
@@ -32,14 +32,14 @@ BeginCmp
 TimeStamp = /5060B4EA;
 Reference = U1;
 ValeurCmp = MCP4261-PDIP;
-IdModule  = DIP-14__300;
+IdModule  = DIP-14__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5060BAD2;
 Reference = U2;
 ValeurCmp = MCP4261-PDIP;
-IdModule  = DIP-14__300;
+IdModule  = DIP-14__300_ELL;
 EndCmp
 
 EndListe
