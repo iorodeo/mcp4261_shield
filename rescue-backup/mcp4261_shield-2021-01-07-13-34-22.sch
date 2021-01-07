@@ -1,5 +1,38 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mcp4261-pdip
+LIBS:arduino
+LIBS:mcp4261_shield-cache
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,7 +49,7 @@ $EndDescr
 Text Label 8950 2800 0    60   ~ 0
 GND
 $Comp
-L mcp4261_shield-rescue:GND #PWR6
+L GND #PWR6
 U 1 1 5060BBF8
 P 8950 2850
 F 0 "#PWR6" H 8950 2850 30  0001 C CNN
@@ -77,7 +110,7 @@ Connection ~ 7650 3150
 Wire Wire Line
 	6800 3450 7650 3450
 Wire Wire Line
-	7650 3450 7650 3350
+	7650 3450 7650 2500
 Connection ~ 7650 3350
 Wire Wire Line
 	7350 3650 6800 3650
@@ -89,7 +122,7 @@ Wire Wire Line
 	7300 2000 6750 2000
 Connection ~ 7600 1700
 Wire Wire Line
-	7600 850  7600 1000
+	7600 850  7600 1800
 Wire Wire Line
 	7600 1800 6750 1800
 Connection ~ 7600 1500
@@ -112,11 +145,11 @@ Wire Wire Line
 	3850 1600 4400 1600
 Connection ~ 1000 2000
 Wire Wire Line
-	1000 1700 1000 2000
+	1000 1700 1000 2150
 Wire Wire Line
 	1300 1600 1300 1900
 Wire Wire Line
-	1300 1900 1550 1900
+	1300 1900 1950 1900
 Wire Wire Line
 	1550 1700 1550 1900
 Connection ~ 1550 1900
@@ -183,7 +216,7 @@ P0W
 Text Label 9050 1400 0    60   ~ 0
 P0A
 $Comp
-L mcp4261_shield-rescue:CONN_13 P1
+L CONN_13 P1
 U 1 1 5060BB43
 P 9850 2000
 F 0 "P1" V 9810 2000 60  0000 C CNN
@@ -194,7 +227,7 @@ F 3 "" H 9850 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261-pdip:MCP4261-PDIP U2
+L MCP4261-PDIP U2
 U 1 1 5060BAD2
 P 6300 3450
 F 0 "U2" H 6100 3900 60  0000 C CNN
@@ -207,7 +240,7 @@ $EndComp
 Text Label 5300 3150 0    60   ~ 0
 CS1
 $Comp
-L mcp4261_shield-rescue:GND #PWR3
+L GND #PWR3
 U 1 1 5060BAD1
 P 5000 3700
 F 0 "#PWR3" H 5000 3700 30  0001 C CNN
@@ -218,7 +251,7 @@ F 3 "" H 5000 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261_shield-rescue:C C2
+L C C2
 U 1 1 5060BAD0
 P 8050 3000
 F 0 "C2" H 8100 3100 50  0000 L CNN
@@ -229,7 +262,7 @@ F 3 "" H 8050 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261_shield-rescue:GND #PWR5
+L GND #PWR5
 U 1 1 5060BACF
 P 8050 3400
 F 0 "#PWR5" H 8050 3400 30  0001 C CNN
@@ -288,7 +321,7 @@ GND
 Text Label 7600 850  1    60   ~ 0
 5V
 $Comp
-L mcp4261_shield-rescue:GND #PWR4
+L GND #PWR4
 U 1 1 5060B965
 P 8000 1750
 F 0 "#PWR4" H 8000 1750 30  0001 C CNN
@@ -299,7 +332,7 @@ F 3 "" H 8000 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261_shield-rescue:C C1
+L C C1
 U 1 1 5060B95F
 P 8000 1350
 F 0 "C1" H 8050 1450 50  0000 L CNN
@@ -310,7 +343,7 @@ F 3 "" H 8000 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261_shield-rescue:GND #PWR2
+L GND #PWR2
 U 1 1 5060B90E
 P 4950 2050
 F 0 "#PWR2" H 4950 2050 30  0001 C CNN
@@ -352,7 +385,7 @@ SCK
 NoConn ~ 3850 1400
 NoConn ~ 3850 1300
 $Comp
-L power:PWR_FLAG #FLG2
+L PWR_FLAG #FLG2
 U 1 1 5060B7B1
 P 1550 1700
 F 0 "#FLG2" H 1550 1970 30  0001 C CNN
@@ -363,7 +396,7 @@ F 3 "" H 1550 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG1
+L PWR_FLAG #FLG1
 U 1 1 5060B7AC
 P 1000 1700
 F 0 "#FLG1" H 1000 1970 30  0001 C CNN
@@ -374,7 +407,7 @@ F 3 "" H 1000 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcp4261_shield-rescue:GND #PWR1
+L GND #PWR1
 U 1 1 5060B7A5
 P 1000 2150
 F 0 "#PWR1" H 1000 2150 30  0001 C CNN
@@ -389,7 +422,7 @@ Text Label 1300 1600 1    60   ~ 0
 NoConn ~ 1950 1800
 NoConn ~ 1950 1700
 $Comp
-L mcp4261-pdip:MCP4261-PDIP U1
+L MCP4261-PDIP U1
 U 1 1 5060B4EA
 P 6250 1800
 F 0 "U1" H 6050 2250 60  0000 C CNN
@@ -400,7 +433,7 @@ F 3 "" H 6250 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arduino:ARDUINO_SHIELD SHIELD1
+L ARDUINO_SHIELD SHIELD1
 U 1 1 5060B4DB
 P 2900 2100
 F 0 "SHIELD1" H 2550 3050 60  0000 C CNN
@@ -411,21 +444,5 @@ F 3 "" H 2900 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1600 4650 0    100  ~ 0
-Arduino libray for mcp4261 can be found here   https://github.com/iorodeo/iorodeo_arduino_libs \n
-Wire Wire Line
-	7650 2650 7650 2500
-Wire Wire Line
-	7650 3150 7650 2650
-Wire Wire Line
-	7650 3350 7650 3150
-Wire Wire Line
-	7600 1700 7600 1800
-Wire Wire Line
-	7600 1500 7600 1700
-Wire Wire Line
-	7600 1000 7600 1500
-Wire Wire Line
-	1000 2000 1000 2150
-Wire Wire Line
-	1550 1900 1950 1900
+Arduino libray for mcp4261 can be found here   https://bitbucket.org/iorodeo/iorodeo_arduino_libs/src   \n
 $EndSCHEMATC

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name mcp4261_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/mcp4261_shield-rescue.lib)(options "")(descr ""))
+  (lib (name mcp4261-pdip)(type Legacy)(uri ${KIPRJMOD}/mcp4261-pdip.lib)(options "")(descr ""))
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/arduino.lib)(options "")(descr ""))
+)
